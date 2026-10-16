@@ -1,0 +1,43 @@
+:root {
+  /* color: Herbarium (light) */
+  --bg: #ece8de;
+  --surface: #d9d4c8;
+  --border: #c4bdae;
+  --text: #1f1b18;
+  --heading: #161310;
+  --muted: #565538;
+
+  --brand: #58976b;
+  --signal: #66c774;
+  --brass: #d39858;
+  --sand: #eaceaa;
+  --link: #85431e;
+
+  --band: #565538;
+  --moss: #7a7a4f;
+  --forest: #2f3a28;
+  --depth: #633443;
+
+  /* type */
+  --font-display: "Fraunces Variable", Georgia, serif;
+  --font-body: "Inter Tight Variable", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+
+  --step--1: clamp(0.78rem, 0.76rem + 0.1vw, 0.85rem);
+  --step-0:  clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --step-2:  clamp(1.5rem, 1.3rem + 1vw, 2.1rem);
+  --step-5:  clamp(3rem, 1.5rem + 7vw, 8rem);
+
+  /* space */
+  --space-xs: 0.5rem;
+  --space-s: 1rem;
+  --space-m: 2rem;
+  --space-l: 4rem;
+  --space-xl: 8rem;
+
+  /* layout and motion */
+  --max-w: 72rem;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur: 500ms;
+}

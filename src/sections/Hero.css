@@ -1,0 +1,47 @@
+.hero {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: var(--gutter);
+}
+
+.hero__frame {
+  width: min(100%, var(--max-w));
+  /* brass hairline frame, the "plate border" */
+  border: 1px solid var(--brass);
+  outline: 1px solid var(--brass);
+  outline-offset: 6px;
+  padding: clamp(1.5rem, 5vw, 4rem);
+  display: grid;
+  gap: var(--space-m);
+}
+
+.hero__meta {
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  color: var(--muted);
+  letter-spacing: 0.08em;
+}
+
+.hero__mark {
+  font-size: var(--step-5);
+  font-weight: 350;
+}
+
+.hero__lede { max-width: 38ch; font-size: var(--step-2); line-height: 1.25; }
+
+.hero__row { display: flex; gap: var(--space-m); align-items: center; flex-wrap: wrap; }
+
+.hero__status { display: flex; align-items: center; gap: 0.6rem; font-family: var(--font-mono); font-size: var(--step--1); }
+
+.dot { width: 0.6rem; height: 0.6rem; border-radius: 50%; background: var(--signal); }
+
+.btn {
+  background: var(--brand);
+  color: var(--heading);          /* dark text on sage, per the rule */
+  padding: 0.8rem 1.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background var(--dur) var(--ease);
+}
+.btn:hover { background: var(--moss); }
