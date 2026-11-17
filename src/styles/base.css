@@ -26,7 +26,6 @@ a { color: var(--link); }
   outline-offset: 3px;
 }
 
-/* paper grain: tiny inline SVG, zero network requests */
 body::before {
   content: "";
   position: fixed;
